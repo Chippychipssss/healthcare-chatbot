@@ -1,0 +1,3 @@
+netstat -ano | findstr :3000
+taskkill /PID 12345 /F (replace the pid)
+node server.js (restart the server)
